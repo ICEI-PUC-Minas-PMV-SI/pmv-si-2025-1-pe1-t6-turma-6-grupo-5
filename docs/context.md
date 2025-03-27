@@ -18,23 +18,10 @@ Pode-se destacar como objetivos específicos:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Com o tempo houve um distanciamento entre a população e os órgãos públicos, que deveriam trabalhar em conjunto para o bem das comunidades como um todo, assim como diz a Constituição Brasileira, na qual é tratado como dever do cidadão a fiscalização e cobrança dos órgãos públicos, que por sua vez, tem como responsabilidade, manter os ambientes públicos com qualidade de infraestrutura e acessíveis para todos. Essa situação criou uma barreira na execução desses deveres no cotidiano da sociedade geral. Dessa maneira, com a possibilidade de registros e o monitoramentos das situações, de forma rápida e simplificada, a plataforma pode contribuir para a resolução de questões que afetam o bem-estar das comunidades, fortalecendo a confiança na administração pública e estimulando a participação social em outros planos da sociedade civil.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Os cidadãos urbanos seriam o público-alvo do projeto, pois são eles que enfrentam, na prática, as dificuldades geradas pela falta de auxílio e infraestrutura pública. Diariamente, em suas casas, bairros e ruas, eles lidam com problemas como a ausência de espaços públicos adequados, os tornando mais aptos a identificar essas demandas. Além disso, ao envolvê-los no processo, não apenas atenderia às suas necessidades, mas também promoveria um senso de comunidade e participação ativa, permitindo que eles se tornem agentes de mudança em suas próprias vidas. Dessa forma, a iniciativa se torna uma oportunidade para ouvir suas vozes e transformar suas experiências em ações reais que promovem a melhoria da qualidade de vida. \
+Os Gestores Públicos também são parte fundamental desse público-alvo, pois têm a responsabilidade de transformar as demandas da população em ações concretas. Ao utilizar os dados enviados pelos usuários, eles conseguem identificar de forma precisa os locais que mais necessitam de reformas e quais problemas requerem atenção imediata. Essa análise não apenas permite a priorização de obras e serviços, mas também facilita um contato direto e mais próximo com os moradores, criando um canal de comunicação que melhora o entendimento das necessidades da comunidade. Dessa maneira, essa interação promoverá um ambiente de transparência e confiança, onde os cidadãos se sentirão ouvidos e valorizados, fortalecendo a relação entre a administração pública e a comunidade. Assim, o projeto não apenas melhora a infraestrutura urbana, mas também contribui para um governo melhor.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
