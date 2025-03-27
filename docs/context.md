@@ -1,34 +1,20 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+A comunicação entre a população e o governo nem sempre é fácil, especialmente quando se trata de problemas do dia a dia, como um buraco na rua, um semáforo quebrado ou a falta de iluminação pública. Muitas vezes, as pessoas não sabem onde reclamar, e quando descobrem, o processo pode ser burocrático e demorado.
+Com a tecnologia cada vez mais presente, um aplicativo voltado para a abertura de chamados de problemas urbanos poderia tornar esse processo muito mais simples e eficiente. Em vez de ligar para diferentes órgãos ou preencher formulários complicados, os cidadãos poderiam abrir chamados diretamente pelo celular, acompanhando o andamento da solicitação de forma transparente. \
+Dessa forma, este projeto busca desenvolver uma plataforma que conecte a população ao governo de maneira prática, garantindo que demandas importantes sejam atendidas sem tanta burocracia. Assim, pequenas melhorias no dia a dia podem acontecer de forma mais rápida, beneficiando toda a comunidade.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A falta de meios de comunicação atrapalha na resolução de problemas urbanos na sociedade, como estreitar essa comunicação e trazer soluções?
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Facilitar e incentivar a comunicação entre o governo e os cidadãos brasileiros na solução de problemas urbanos. \
+Pode-se destacar como objetivos específicos: 
+> - **Facilitar a comunicação:**  criar um canal simplificado para que cidadãos possam reportar problemas urbanos para as autoridades responsáveis de forma eficaz, (ex.: buracos, falta de iluminação, vandalismo, etc) e acompanhar as ações tomadas por elas para solucioná-los.
+> -  **Aumentar a transparência:** permitir à comunidade acompanhar as intervenções feitas pela gestão pública, com a utilização de tópicos como “Não iniciado”, “Em andamento” e “Finalizado”. Ao categorizar as obras e serviços dessa forma, é proporcionada uma visão clara do progresso das ações, facilitando o entendimento sobre o status de cada projeto.
+> - **Estimular a participação social:** incentivar o engajamento dos cidadãos nas questões públicas, contribuindo para um melhor diálogo entre a população e as autoridades governamentais., permitindo que os cidadãos se sintam mais envolvidos e informados sobre o que está sendo feito em suas comunidades.
 
 ## Justificativa
 
