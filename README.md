@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto “Voz Urbana” tem como objetivo desenvolver uma plataforma que conecte a população ao governo de maneira prática, garantindo que as demandas populacionais sejam atendidas sem tanta burocracia.
 
 ## Integrantes
 
