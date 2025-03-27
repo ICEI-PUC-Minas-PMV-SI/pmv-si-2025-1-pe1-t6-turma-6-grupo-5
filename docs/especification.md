@@ -28,13 +28,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                        |PARA ... `MOTIVO/VALOR`                                                |
 |--------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|
-|Cidadão             | Reportar problemas urbanos                                                | Agilizar na resolução dos mesmos.                                     |
-|Cidadão             | Dar feedback sobre a reforma realizada                                    | Garantir a qualidade dos serviços prestados.                          |
-|Cidadão             | Adicionar informações ou fotos ao chamado                                 | Fornecer detalhes e ajudar a gestão a resolver o problema mais rápido.|
-|Cidadão             | Acompanhar o status de chamado no aplicativo (Ex. em andamento, resolvido)| Saber se o problema foi resolvido ou se está em andamento.            |
-|Gestor              | Fazer um relatório das ocorrências atendidas em determinado mês           | Prestação de contas para a comunidade.                                |
-|Gestor              | Verificar os problemas reportados que ainda não foram solucionados        | Que possa direcionar ações futuras da administração.                  |
-|Gestor              | Entrar em contato com o cidadão que reportou determinado problema         | Esclarecer algo que não ficou claro nas informações prestadas.        |
+|Cidadão             | reportar problemas urbanos                                                | agilizar na resolução dos mesmos.                                     |
+|Cidadão             | dar feedback sobre a reforma realizada                                    | garantir a qualidade dos serviços prestados.                          |
+|Cidadão             | adicionar informações ou fotos ao chamado                                 | fornecer detalhes e ajudar a gestão a resolver o problema mais rápido.|
+|Cidadão             | acompanhar o status de chamado no aplicativo (Ex. em andamento, resolvido)| saber se o problema foi resolvido ou se está em andamento.            |
+|Gestor              | fazer um relatório das ocorrências atendidas em determinado mês           | prestação de contas para a comunidade.                                |
+|Gestor              | verificar os problemas reportados que ainda não foram solucionados        | que possa direcionar ações futuras da administração.                  |
+|Gestor              | entrar em contato com o cidadão que reportou determinado problema         | esclarecer algo que não ficou claro nas informações prestadas.        |
 
 
 ## Requisitos
