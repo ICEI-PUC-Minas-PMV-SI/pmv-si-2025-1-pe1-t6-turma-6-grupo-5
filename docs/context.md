@@ -25,3 +25,16 @@ Com o tempo houve um distanciamento entre a população e os órgãos públicos,
 Os cidadãos urbanos seriam o público-alvo do projeto, pois são eles que enfrentam, na prática, as dificuldades geradas pela falta de auxílio e infraestrutura pública. Diariamente, em suas casas, bairros e ruas, eles lidam com problemas como a ausência de espaços públicos adequados, os tornando mais aptos a identificar essas demandas. Além disso, ao envolvê-los no processo, não apenas atenderia às suas necessidades, mas também promoveria um senso de comunidade e participação ativa, permitindo que eles se tornem agentes de mudança em suas próprias vidas. Dessa forma, a iniciativa se torna uma oportunidade para ouvir suas vozes e transformar suas experiências em ações reais que promovem a melhoria da qualidade de vida. \
 Os Gestores Públicos também são parte fundamental desse público-alvo, pois têm a responsabilidade de transformar as demandas da população em ações concretas. Ao utilizar os dados enviados pelos usuários, eles conseguem identificar de forma precisa os locais que mais necessitam de reformas e quais problemas requerem atenção imediata. Essa análise não apenas permite a priorização de obras e serviços, mas também facilita um contato direto e mais próximo com os moradores, criando um canal de comunicação que melhora o entendimento das necessidades da comunidade. Dessa maneira, essa interação promoverá um ambiente de transparência e confiança, onde os cidadãos se sentirão ouvidos e valorizados, fortalecendo a relação entre a administração pública e a comunidade. Assim, o projeto não apenas melhora a infraestrutura urbana, mas também contribui para um governo melhor.
 
+## Especificação do projeto
+
+**Perfis de Usuários**
+
+| Perfil 01:   | Cidadão |
+| ------------- | ------------- |
+| **Descrição:**  | Indivíduos que utilizam e vivenciam os espaços públicos diariamente, interessados em contribuir para a melhoria de sua comunidade.  |
+| **Necessidade:**  | 1. Participar ativamente na gestão pública, exercendo seu direito de cobrar melhorias e transparência.<br/> 2. Fácil comunicação entre o cidadão e a administração pública.<br/> 3. Dispor de um canal acessível e eficiente para reportar problemas urbanos.<br/> 4. Receber atualizações sobre o status das suas solicitações.  |
+
+| Perfil 02:   | Gestores Públicos |
+| ------------- | ------------- |
+| **Descrição:**  | Responsáveis por gerir instituições públicas e que trabalham para o bem estar dos cidadãos.  |
+| **Necessidade:**  | 1. Agilidade no recebimento de informações sobre problemas públicos;<br/> 2. Um contato mais direto e transparente com os cidadãos;<br/> 3. Obter informações precisas e atualizadas sobre os problemas reportados pela comunidade.;<br/> 4. Priorizar e gerenciar eficientemente as demandas recebidas.  |
