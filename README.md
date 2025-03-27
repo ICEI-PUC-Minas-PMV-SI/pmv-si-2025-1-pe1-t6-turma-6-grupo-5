@@ -20,7 +20,8 @@ O projeto “Voz Urbana” tem como objetivo desenvolver uma plataforma que cone
 
 ## Orientador
 
-* Nome completo do professor 1
+* Clóvis Lemos Tavares
+
 
 # Planejamento
 
