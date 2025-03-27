@@ -47,32 +47,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
-
+|------|----------------------------------------------------------|----| 
+|RF-001| O usuário deve ser capaz de se cadastrar no site como cidadão | ALTA | 
+|RF-002| O usuário deve ser capaz de fazer login no site como cidadão | ALTA | 
+|RF-003| O gestor público deve ser capaz de se cadastrar no site como gestor | ALTA | 
+|RF-004| O usuário deve ser capaz de fazer login no site como gestor | ALTA | 
+|RF-005| O usuário não pode se cadastrar duas vezes com o mesmo email | ALTA | 
+|RF-006| O gestor público deve ser capaz de alterar o status da ocorrência reportada | ALTA | 
+|RF-007| O gestor público deve ser capaz de contactar o usuário que realizou o chamado | ALTA | 
+|RF-008| O usuário(cidadão) deve ser capaz de fazer o registro de problemas | ALTA | 
+|RF-009| O usuário(cidadão) deve ser capaz de anexar fotos ao registro de problemas | MÉDIA | 
+|RF-010| O gestor público deve ser capaz de especificar um mês na geração de relatório | MÉDIA | 
+|RF-011| O gestor público deve ser capaz de filtrar os chamados não solucionados | MÉDIA | 
+|RF-012| Adicionar ferramentas para que gestores possam moderar conteúdos inadequados ou irrelevantes | MÉDIA | 
+|RF-013| Adicionar mecanismos para que os usuários possam fornecer feedback sobre a plataforma e sugerir melhorias | BAIXA | 
+|RF-014| Integrar ferramentas de mapas que permitam aos usuários marcar a localização exata dos problemas reportados | BAIXA | 
+|RF-015| O usuário deve ser capaz de adicionar uma foto de perfil | BAIXA | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O aplicativo deve ser em linguagem HTML, CSS e Javascript | ALTA | 
+|RNF-002| A aplicação deve ser responsiva, permitindo uma boa visualização em dispositivos móveis | ALTA | 
+|RNF-003| O aplicativo deve estar disponível em um domínio público da internet, com uma disponibilidade mínima de 99% | MÉDIA | 
+|RNF-004| A aplicação deve ser compatível com todos os principais navegadores de mercado | MÉDIA | 
+|RNF-005| Implementar mecanismos de backup e recuperação de dados | MÉDIA | 
+|RNF-006| A interface deve ser intuitiva para usuários de diferentes níveis de conhecimento tecnológico | MÉDIA | 
+|RNF-007| Deve suportar, simultaneamente, pelo menos 1000 usuários ativos | MÉDIA | 
 
 ## Restrições
 
@@ -82,10 +84,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
