@@ -10,11 +10,12 @@ O projeto “Voz Urbana” tem como objetivo desenvolver uma plataforma que cone
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Geovane Lourenço Fernandes
+* Guilherme Duarte de Paula Assis
+* Isadora Maria Ribeiro
+* Rafael Melquisedeque da Costa Nunes Melgaço
+* Sofia Patrocinio de Abreu
+* Tiago Souza Dias
 
 
 ## Orientador
