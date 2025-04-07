@@ -21,6 +21,9 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 
 ## Iconografia
+![image](https://github.com/user-attachments/assets/7a059edb-4d19-45d0-86e2-cfb2149973d6)
+
+Icones utilizados no protótipo de baixa fidelidade.
 > ## Logo
 ![1](https://github.com/user-attachments/assets/238c7d47-7d6f-4b9f-9ae9-4348d7142005)
 
