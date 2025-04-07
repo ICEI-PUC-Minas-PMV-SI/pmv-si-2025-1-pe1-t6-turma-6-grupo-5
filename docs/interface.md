@@ -18,6 +18,14 @@ Figura 3 - User Flow 3
 
 
 ## Protótipo de baixa fidelidade
+Todas as páginas apresentam as mesmas estruturas básicas a seguir, a qual inclui um cabeçalho, uma área de contéudo e um rodapé, levando em consideração o usuário estar logado ou não:
+
+![Layout Basico - Sem Login](https://github.com/user-attachments/assets/8952fec4-7ea2-40b6-a789-46d6dcca5e96)\
+Figura 4 - Layout Basico - Sem Login
+
+![Layout Basico - Usuário Logado](https://github.com/user-attachments/assets/51511262-a74e-40d5-8104-4b2945387af1)\
+Figura 5 - Layout Basico - Usuário Logado
+
 ## Wireframes
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
@@ -54,6 +62,8 @@ Nessa tela é realizado o login. Apresenta os campos "Email" e "Senha", um selet
 ![Tela Entrar](https://github.com/user-attachments/assets/0e3f7155-9676-4d5c-b8d0-1cda47428916)\
 Figura 7 - Tela Entrar
 
+## Tela Cadastrar 
+Nessa tela é realizado o cadastro de contas. Apresenta os campos "Email", "Nome", "CPF" e "Senha", um seletor o qual permite escolher entre "Cidadão" ou "Gestor" além de uma caixa de aceitação dos termos de uso e um botão "Cadastrar". 
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
