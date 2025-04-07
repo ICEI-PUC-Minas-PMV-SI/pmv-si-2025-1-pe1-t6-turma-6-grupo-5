@@ -26,16 +26,6 @@ Figura 4 - Layout Basico - Sem Login
 ![Layout Basico - Usuário Logado](https://github.com/user-attachments/assets/51511262-a74e-40d5-8104-4b2945387af1)\
 Figura 5 - Layout Basico - Usuário Logado
 
-## Wireframes
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
-
-### Exemplo
-
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
 ## Tela - Página Inicial
 A tela "Página Inicial" apresenta a área "Serviços" a qual apresenta as páginas de "Chamados" e de "Novo Chamado", além de uma imagem ilustrativa de uma cidade com uma legenda descritiva em baixo. \
 A área "Sobre" é comprosta de uma pequena apresentação do objetivo do site como um todo, além da logo do site. \
