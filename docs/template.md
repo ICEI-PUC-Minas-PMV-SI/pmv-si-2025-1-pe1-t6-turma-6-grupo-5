@@ -21,6 +21,19 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 
 
 ## Iconografia
+> ## Logo
+![1](https://github.com/user-attachments/assets/238c7d47-7d6f-4b9f-9ae9-4348d7142005)
+
+Figura 1 - Logo "Voz Urbana".
+
+![2](https://github.com/user-attachments/assets/e9e69550-6a60-4b4c-b220-6e7295af5c71)
+
+Figura 2 - Logo "Voz Urbana" sem texto.
+
+![Só logo](https://github.com/user-attachments/assets/c6e6b4b9-9da8-401c-9de1-5d556dd5789c)
+
+Figura 3 - Logo "Voz Urbana" sem desenho.
+
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
