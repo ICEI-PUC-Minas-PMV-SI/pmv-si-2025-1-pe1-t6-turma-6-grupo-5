@@ -9,7 +9,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ![1 Reduzido](https://github.com/user-attachments/assets/ac46af0b-e6aa-49a4-ab76-6c56a028a3d9)
 ![2 Reduzido](https://github.com/user-attachments/assets/c4719eb3-bae6-4504-9530-b40aceef96a5)
-![3 Reduzido](https://github.com/user-attachments/assets/0e6d3b00-fa6b-4ec6-87be-2b587a222222)
+![3 Reduzido](https://github.com/user-attachments/assets/9dce0503-b0a7-42fd-8736-2065a9d48fa7)
+
 
 ## Protótipo de baixa fidelidade
 ## Wireframes
@@ -36,10 +37,10 @@ A tela "Chamados" contém situações ja reportadas no site, com seu devido stat
 ![Chamados](https://github.com/user-attachments/assets/0f4debf6-4f8e-47ba-8082-cd003d7ac6e8)
 Figura 4 - Tela Chamados 
 
-## Tela - Chamado Detalhes
+## Tela - Chamados - Detalhes
 Essa tela apresenta o detalhamento de um chamado, apresentando o número do chamado, o nome do usuário que reportou, do que se trata, a localização, uma descrição, o número para contato e possíveis imagens da situação descrita.  
 ![Chamado detalhado](https://github.com/user-attachments/assets/88bda746-5f20-42a6-b83e-7108d757791c)
-Figura 5 - Tela Chamado - Detalhes
+Figura 5 - Tela Chamados - Detalhes
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
