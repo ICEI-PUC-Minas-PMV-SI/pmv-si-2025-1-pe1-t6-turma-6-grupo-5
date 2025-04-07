@@ -1,9 +1,9 @@
 # Template padrão do site
 
 Layout padrão do site que será utilizado em todas as páginas é HTML e CSS.
-> - Cores:
-> - Font: Roboto
-> - Font-size: 16px
+- Cores:
+- Font: Roboto
+- Font-size: 16px
 
 
 ## Paleta de cores
