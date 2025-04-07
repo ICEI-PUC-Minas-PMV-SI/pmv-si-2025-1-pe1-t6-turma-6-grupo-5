@@ -16,7 +16,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
 > - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
-
+## Protótipo de baixa fidelidade
 ## Wireframes
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
@@ -27,6 +27,24 @@ A tela inicial apresenta um menu lateral com as principais seções do portal, e
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
+## Tela - Home page
+A tela "Home page" apresenta a área "Serviços" a qual apresenta as páginas de "Chamados" e de "Novo Chamado", além de uma imagem ilustrativa de uma cidade com uma legenda descritiva em baixo. \
+A área "Sobre" é comprosta de uma pequena apresentação do objetivo do site como um todo, além da logo do site. \
+Logo abaixo há a área de "Depoimento de usuários", que é composta por depoimentos de usuários ficticios que teriam utilizado de forma produtiva o site e deixaram sua avaliação de satisfação. 
+
+![Home page](https://github.com/user-attachments/assets/66c37395-926d-4a6d-ab83-deb177b4c650)
+
+Figura 3 - Tela Home page 
+
+## Tela - Chamados 
+A tela "Chamados" contém situações ja reportadas no site, com seu devido status, que leva a uma página que contém mais detalhes, uma barra de pesquisa para encontrar um chamado específico e uma página de criação de um novo chamado. 
+![Chamados](https://github.com/user-attachments/assets/0f4debf6-4f8e-47ba-8082-cd003d7ac6e8)
+Figura 4 - Tela Chamados 
+
+## Tela - Chamado 12
+Essa tela apresenta o detalhamento de um chamdo, apresentando o número do chamado, o nome do usuário que reportou, do que se trata, a localização, uma descrição, o número para contato e possíveis imagens da situação descrita.  
+![Chamado detalhado](https://github.com/user-attachments/assets/88bda746-5f20-42a6-b83e-7108d757791c)
+Figura 5 - Tela Chamado 12
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
