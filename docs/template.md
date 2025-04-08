@@ -17,7 +17,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Tipografia
 
-![Tipografia](https://github.com/user-attachments/assets/a78e6ec1-ed81-41fe-94c0-f69b7c68fd28)
+![Tipografia](https://github.com/user-attachments/assets/878ce085-5e38-4f94-93a6-774c997098d0)
 
 ## Iconografia
 ![image](https://github.com/user-attachments/assets/7a059edb-4d19-45d0-86e2-cfb2149973d6)
