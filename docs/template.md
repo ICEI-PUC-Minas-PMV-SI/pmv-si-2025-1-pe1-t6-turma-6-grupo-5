@@ -8,8 +8,7 @@ Layout padrão do site que será utilizado em todas as páginas é HTML e CSS.
 
 ## Paleta de cores
 
-![Cores](https://github.com/user-attachments/assets/17624a9e-2769-4a6a-bfee-1ef9852c5e05)
-
+![Cores](https://github.com/user-attachments/assets/e6e9d78b-c76a-4f77-a84a-ba71efaa175a)
 
 ## Design
 
