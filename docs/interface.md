@@ -37,7 +37,7 @@ Figura 6 - Tela Página Inicial
 ## Tela - Chamados 
 A tela "Chamados" contém situações ja reportadas no site, com seu devido status, que leva a uma página que contém mais detalhes, uma barra de pesquisa para encontrar um chamado específico e uma página de criação de um novo chamado. 
 
-![Chamados](https://github.com/user-attachments/assets/0f4debf6-4f8e-47ba-8082-cd003d7ac6e8)\
+![Chamados](https://github.com/user-attachments/assets/bfea2415-a32a-4dd9-b663-83b850180216)
 Figura 7 - Tela Chamados 
 
 ## Tela - Chamados - Detalhes
@@ -61,25 +61,25 @@ Figura 10 - Tela Cadastrar
 ## Tela - Perfil Cidadão
 Essa tela apresenta o perfil inicial do cidadão, apresentando as informações cadastrais do cidadão que foram registradas na tela "Cadastrar", e os botões "Registrar Novo", "Meus chamados", "Editar Dados" e "Alterar Senha".
 
-![2 0 Perfil Cidadão](https://github.com/user-attachments/assets/f16ec40f-3c70-4d4e-970e-13d07a4b72fd)
+![2 0 Perfil Cidadão](https://github.com/user-attachments/assets/f16ec40f-3c70-4d4e-970e-13d07a4b72fd)\
 Figura 11 - Tela Perfil Cidadão
 
 ## Tela - Perfil Cidadão - Registrar Chamados
 Nessa tela é realizado o cadastro de um novo chamado. Apresenta os campos “Do que se trata?”, “Localização”, “Descrição”, “Número para contato”, “Imagens” e um botão  “Cadastrar” para concluir o cadastro do novo chamado.
 
-![2 1 Perfil Cidadão - Registrar Chamados](https://github.com/user-attachments/assets/3751a9d6-8f61-45b5-b7e7-eea316432816)
+![2 1 Perfil Cidadão - Registrar Chamados](https://github.com/user-attachments/assets/3751a9d6-8f61-45b5-b7e7-eea316432816)\
 Figura 12 - Tela Perfil Cidadão - Registrar Chamados
 
 ## Tela - Perfil Cidadão - Meus Chamados
 Essa tela apresenta os chamados já registrados pelo cidadão, com a descrição do chamado e o status atualizado.
 
-![2 2 Perfil Cidadão - Meus Chamados](https://github.com/user-attachments/assets/d94cb684-e6c3-403a-9c5a-928e3c1c826d)
+![2 2 Perfil Cidadão - Meus Chamados](https://github.com/user-attachments/assets/d94cb684-e6c3-403a-9c5a-928e3c1c826d)\
 Figura 13 - Tela Perfil Cidadão - Meus Chamados
 
 ## Tela - Perfil Cidadão - Alterar Dados
 Nessa tela é realizado a alteração de dados do cidadão. Apresenta os campos “Nome”, “Telefone”, “CPF”, “RG”, “Endereço” e “Email”, além de um botão para alterar a foto de perfil e “Salvar Alterações” ou “Cancelar”.
 
-![2 3 Perfil Cidadão - Alterar Dados](https://github.com/user-attachments/assets/8ac16fc7-900c-4c5f-b75b-44ef05d34474)
+![2 3 Perfil Cidadão - Alterar Dados](https://github.com/user-attachments/assets/8ac16fc7-900c-4c5f-b75b-44ef05d34474)\
 Figura 14 - Tela Perfil Cidadão - Alterar Dados
 
 > **Links Úteis**:
