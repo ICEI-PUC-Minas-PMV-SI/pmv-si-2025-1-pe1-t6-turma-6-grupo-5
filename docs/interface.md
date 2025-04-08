@@ -58,6 +58,12 @@ Nessa tela é realizado o cadastro de contas. Apresenta os campos "Email", "Nome
 ![Tela Cadastrar](https://github.com/user-attachments/assets/74bfbc7f-9602-4719-bce5-431290b23b48)\
 Figura 10 - Tela Cadastrar
 
+## Tela - Perfil Cidadão
+Essa tela apresenta o perfil inicial do cidadão, apresentando as informações cadastradas do cidadão que foram registradas na tela "Cadastrar", e os campos "Registrar Novo", "Meus chamados", "Editar Dados" e "Alterar Senha".
+
+
+Figura 11 - Tela Perfil Cidadao
+
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
