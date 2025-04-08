@@ -61,9 +61,14 @@ Figura 10 - Tela Cadastrar
 ## Tela - Perfil Cidadão
 Essa tela apresenta o perfil inicial do cidadão, apresentando as informações cadastradas do cidadão que foram registradas na tela "Cadastrar", e os campos "Registrar Novo", "Meus chamados", "Editar Dados" e "Alterar Senha".
 
+![2 0 Perfil Cidadão](https://github.com/user-attachments/assets/f16ec40f-3c70-4d4e-970e-13d07a4b72fd)
+Figura 11 - Tela Perfil Cidadão
 
-Figura 11 - Tela Perfil Cidadao
+## Tela - Perfil Cidadão - Registrar Chamados
+Nessa tela é realizado o cadastro de um novo chamado. Apresenta os campos “Do que se trata?”, “Localização”, “Descrição”, “Número para contato”, “Imagens” e um botão  “Cadastrar” para concluir o cadastro do novo chamado.
 
+![2 1 Perfil Cidadão - Registrar Chamados](https://github.com/user-attachments/assets/3751a9d6-8f61-45b5-b7e7-eea316432816)
+Figura 12 - Tela Perfil Cidadão - Registrar Chamados
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
