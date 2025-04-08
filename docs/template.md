@@ -8,7 +8,8 @@ Layout padrão do site que será utilizado em todas as páginas é HTML e CSS.
 
 ## Paleta de cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+![Cores](https://github.com/user-attachments/assets/17624a9e-2769-4a6a-bfee-1ef9852c5e05)
+
 
 ## Design
 
@@ -17,8 +18,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+![Tipografia](https://github.com/user-attachments/assets/a78e6ec1-ed81-41fe-94c0-f69b7c68fd28)
 
 ## Iconografia
 ![image](https://github.com/user-attachments/assets/7a059edb-4d19-45d0-86e2-cfb2149973d6)
