@@ -86,13 +86,19 @@ Figura 14 - Tela Perfil Cidadão - Alterar Dados
 Essa tela apresenta o perfil inicial do gestor, apresentando as informações cadastrais do gestor que foram registradas na tela "Cadastrar", e os botões "Abertos", "Concluidos" e "Em Andamento" referentes ao chamados. Como também "Editar Dados" e "Alterar Senha".
 
 ![3 0 Perfil Gestor](https://github.com/user-attachments/assets/2e5123dc-4290-40a4-a121-01ee83c14688)\
-Figura 14 - Tela Perfil Gestor 
+Figura 15 - Tela Perfil Gestor 
 
 ## Tela - Perfil Gestor - Chamados em Aberto
 Nessa tela é possivel ao gestor verificar os chamados em aberto, como também alterar os status dos chamados, para concluído ou em andamento.
 
 ![3 1 Perfil Gestor - Chamados em Aberto](https://github.com/user-attachments/assets/54cdecdc-9ca8-4c84-8d76-b5f28a54cf58)\
-Figura 15 - Tela Perfil Gestor - Chamados em Aberto
+Figura 16 - Tela Perfil Gestor - Chamados em Aberto
+
+## Tela - Perfil Gestor - Chamados em Andamento
+Nessa tela é possivel ao gestor verificar os chamados concluídos, como também fazer um filtro pelo título do chamado.
+
+![3 3 Perfil Gestor - Chamados Concluidos](https://github.com/user-attachments/assets/4d5efd62-ba1c-4bd2-aa51-6192b2243477)\
+Figura 17 - Tela Perfil Gestor - Chamados Concluídos
 
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
