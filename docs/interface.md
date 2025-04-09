@@ -89,7 +89,7 @@ Essa tela apresenta o perfil inicial do gestor, apresentando as informações ca
 Figura 15 - Tela Perfil Gestor 
 
 ## Tela - Perfil Gestor - Chamados em Aberto
-Nessa tela é possivel ao gestor verificar os chamados em aberto, como também alterar os status dos chamados, para concluído ou em andamento.
+Nessa tela é possivel ao gestor verificar os chamados em aberto, com a descrição, como também alterar os status dos chamados, para concluído ou em andamento.
 
 ![3 1 Perfil Gestor - Chamados em Aberto](https://github.com/user-attachments/assets/54cdecdc-9ca8-4c84-8d76-b5f28a54cf58)\
 Figura 16 - Tela Perfil Gestor - Chamados em Aberto
@@ -99,6 +99,12 @@ Nessa tela é possivel ao gestor verificar os chamados concluídos, como também
 
 ![3 3 Perfil Gestor - Chamados Concluidos](https://github.com/user-attachments/assets/4d5efd62-ba1c-4bd2-aa51-6192b2243477)\
 Figura 17 - Tela Perfil Gestor - Chamados Concluídos
+
+## Tela - Perfil Gestor - Alterar Dados
+Nessa tela é realizado a alteração de dados do Gestor. Apresenta os campos “Nome”, “Telefone”, “CPF”, “RG”, “Endereço” e “Email”, além de um botão para alterar a foto de perfil e “Salvar Alterações” ou “Cancelar”.
+
+![3 4 Perfil Gestor - Alterar Datos](https://github.com/user-attachments/assets/f2c45c9e-ac08-4b17-893f-8a1283508993)\
+Figura 18 - Tela Perfil Gestor - Alterar Dados
 
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
