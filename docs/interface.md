@@ -82,7 +82,7 @@ Nessa tela é realizado a alteração de dados do cidadão. Apresenta os campos 
 ![2 3 Perfil Cidadão - Alterar Dados](https://github.com/user-attachments/assets/8ac16fc7-900c-4c5f-b75b-44ef05d34474)\
 Figura 14 - Tela Perfil Cidadão - Alterar Dados
 
-## Tela - Perfil Gestor - Alterar Dados
+## Tela - Perfil Gestor
 Essa tela apresenta o perfil inicial do gestor, apresentando as informações cadastrais do gestor que foram registradas na tela "Cadastrar", e os botões "Abertos", "Concluidos" e "Em Andamento" referentes ao chamados. Como também "Editar Dados" e "Alterar Senha".
 
 ![3 0 Perfil Gestor](https://github.com/user-attachments/assets/2e5123dc-4290-40a4-a121-01ee83c14688)\
