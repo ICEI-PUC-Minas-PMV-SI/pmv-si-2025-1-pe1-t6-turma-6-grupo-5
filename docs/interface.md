@@ -96,17 +96,24 @@ Nessa tela é possivel ao gestor verificar os chamados em andamento, e sua descr
 ![3 2 Perfil Gestor - Chamados em andamento](https://github.com/user-attachments/assets/6bcafa49-c6c2-45ef-98b0-532a5deae9e6)\
 Figura 17 - Tela Perfil Gestor - Chamados em Andamento
 
+## Tela - Perfil Gestor - Chamados em Concluidos
+Nessa tela é possivel ao gestor verificar os chamados em concluidos, e sua descrição, como também fazer um filtro pelo título do chamado.
+
+![image](https://github.com/user-attachments/assets/d447069f-13b0-4ecc-93e9-a9d28f5fb6c4)
+
+Figura 18 - Tela perfil gestor - Chamados Concluídos
+
 ## Tela - Perfil Gestor - Chamados gestor
 Nessa tela é possivel ao gestor verificar os chamados concluídos, como também fazer um filtro pelo título do chamado.
 
 ![Captura de tela 2025-04-08 220217](https://github.com/user-attachments/assets/3845f051-f8ca-470e-aad2-b14d48aa7bdb)
 
-Figura 18 - Tela Perfil Gestor - Chamados gestor 
+Figura 19 - Tela Perfil Gestor - Chamados gestor 
 
 ## Tela - Perfil Gestor - Alterar Dados
 Nessa tela é realizado a alteração de dados do Gestor. Apresenta os campos “Nome”, “Telefone”, “CPF”, “RG”, “Endereço” e “Email”, além de um botão para alterar a foto de perfil e “Salvar Alterações” ou “Cancelar”.
 
 ![3 4 Perfil Gestor - Alterar Datos](https://github.com/user-attachments/assets/f2c45c9e-ac08-4b17-893f-8a1283508993)\
-Figura 19 - Tela Perfil Gestor - Alterar Dados
+Figura 20 - Tela Perfil Gestor - Alterar Dados
 
 
