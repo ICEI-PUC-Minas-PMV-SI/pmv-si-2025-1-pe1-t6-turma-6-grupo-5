@@ -96,11 +96,12 @@ Nessa tela é possivel ao gestor verificar os chamados em andamento, e sua descr
 ![3 2 Perfil Gestor - Chamados em andamento](https://github.com/user-attachments/assets/6bcafa49-c6c2-45ef-98b0-532a5deae9e6)\
 Figura 17 - Tela Perfil Gestor - Chamados em Andamento
 
-## Tela - Perfil Gestor - Chamados em Concluído
+## Tela - Perfil Gestor - Chamados gestor
 Nessa tela é possivel ao gestor verificar os chamados concluídos, como também fazer um filtro pelo título do chamado.
 
-![3 3 Perfil Gestor - Chamados Concluidos](https://github.com/user-attachments/assets/4d5efd62-ba1c-4bd2-aa51-6192b2243477)\
-Figura 18 - Tela Perfil Gestor - Chamados Concluídos
+![Captura de tela 2025-04-08 220217](https://github.com/user-attachments/assets/3845f051-f8ca-470e-aad2-b14d48aa7bdb)
+
+Figura 18 - Tela Perfil Gestor - Chamados gestor 
 
 ## Tela - Perfil Gestor - Alterar Dados
 Nessa tela é realizado a alteração de dados do Gestor. Apresenta os campos “Nome”, “Telefone”, “CPF”, “RG”, “Endereço” e “Email”, além de um botão para alterar a foto de perfil e “Salvar Alterações” ou “Cancelar”.
@@ -108,11 +109,4 @@ Nessa tela é realizado a alteração de dados do Gestor. Apresenta os campos �
 ![3 4 Perfil Gestor - Alterar Datos](https://github.com/user-attachments/assets/f2c45c9e-ac08-4b17-893f-8a1283508993)\
 Figura 19 - Tela Perfil Gestor - Alterar Dados
 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
