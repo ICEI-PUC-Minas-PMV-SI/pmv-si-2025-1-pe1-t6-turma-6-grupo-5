@@ -9,7 +9,7 @@ Figura 1 - User Flow 1
 ![2 Reduzido](https://github.com/user-attachments/assets/c4719eb3-bae6-4504-9530-b40aceef96a5)\
 Figura 2 - User Flow 2
 
-![3 Reduzido](https://github.com/user-attachments/assets/9dce0503-b0a7-42fd-8736-2065a9d48fa7)\
+![3 Reduzido](https://github.com/user-attachments/assets/ff5de511-18ba-4652-beed-2432d2525c30)\
 Figura 3 - User Flow 3
 
 
