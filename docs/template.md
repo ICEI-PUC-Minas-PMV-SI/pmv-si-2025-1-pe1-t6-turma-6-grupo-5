@@ -6,8 +6,9 @@ Layout padrão do site que será utilizado em todas as páginas é HTML e CSS.
 Figura 1 - Paleta de Cores
 
 ## Design
-A seguir estão exemplos de como é o layout dos elementos do site:
-![Exemplo Layout](https://github.com/user-attachments/assets/38a91daa-4451-43ea-9a58-8e144b91d2dc)
+A seguir está um exemplo de como é o layout dos elementos do site:
+
+![Exemplo Layout](https://github.com/user-attachments/assets/38a91daa-4451-43ea-9a58-8e144b91d2dc)\
 Figura 2 - Exemplo Layout
 
 ## Tipografia
