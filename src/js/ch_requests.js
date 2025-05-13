@@ -44,10 +44,10 @@ formCh.addEventListener('submit', function (event) {
     // Save updated array to localStorage
     localStorage.setItem('chamados', JSON.stringify(chArray));
 
-    // Optional: Reset the form
+    // Reset the form
     formCh.reset();
 
-    // Optional: Log or display confirmation
+    // Log or display confirmation
     console.log('Chamado saved:', newChamado);
     
 });
