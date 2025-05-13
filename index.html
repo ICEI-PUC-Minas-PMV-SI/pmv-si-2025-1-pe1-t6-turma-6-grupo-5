@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voz Urbana</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Voz Urbana</title>
+        <link rel="stylesheet" href="./src/css/styles.css">
+
+    </head>
+    <body onload="renderChamados()">
+        <header>
+            <div class="header-container">
+                <img width="93" height="60" src="./src/assets/logo.png" alt="Voz Urbana"> 
+                <nav>
+                    <a href="./index.html" class="btn-clear">Início</a>
+                    <a href="./src/pages/chamados.html" class="btn-clear">Chamados</a>
+                    <a href="./index.html" class="btn-login">Entrar</a>
+                    <a href="./src/pages/criacao-usuario.html" class="btn-create-account">Cadastrar</a>
+                </nav>
+            </div>
+        </header>
+       
+
+        <script src="../js/ch_requests.js"></script>
+    </body>
 </html>
