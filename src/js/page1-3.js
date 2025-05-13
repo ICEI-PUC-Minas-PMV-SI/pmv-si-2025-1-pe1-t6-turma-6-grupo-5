@@ -4,11 +4,11 @@ const cpf = document.getElementById("cpf")
 const password = document.getElementById("password")
 const rePassword =  document.getElementById("re-password")
 
-const form =  document.getElementById("form")
+const form_cad =  document.getElementById("formCad")
 
-let users;
+let users
 
-form.addEventListener("submit",(event) =>{
+formCad.addEventListener("submit",(event) =>{
     event.preventDefault()
 
     createNewUser({
@@ -33,7 +33,6 @@ function createNewUser(data){
         return false
     if(rePassword === '' || rePassword === undefined || rePassword === null)
         return false
-
     if(password.toString() != rePassword.toString())
         return false
 

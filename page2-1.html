@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Voz Urbana</title>
+        <link rel="stylesheet" href="./src/css/styles.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <img width="93" height="60" src="./src/assets/logo.png" alt="Voz Urbana"> 
+                <nav>
+                    <a href="index.html" class="btn-clear">Início</a>
+                    <a href="page 1-1.html" class="btn-clear">Chamados</a>
+                    <a href="index.html" class="btn-login">Entrar</a>
+                    <a href="page 1-3.html" class="btn-create-account">Cadastrar</a>
+                </nav>
+            </div>
+        </header>
+        <main >
+            <section class="container">
+                <div class="form-container">
+                    <h1>REGISTRE SEU CHAMADO</h1>
+                    <form id="chForm">
+                        <div class="form-input">
+                            <label for="chProblem">Do que se trata?</label>
+                            <input type="text" name="chProblem" id="chProblem"  placeholder="Do que se trata?" required>
+                        </div>
+        
+                        <div class="form-input">
+                            <label for="chLocal">Localização</label>
+                            <input type="text" name="chLocal" id="chLocal"  placeholder="Localização" required>
+                        </div>
+
+                        <div class="form-input">
+                            <label for="chDesc">Descrição</label>
+                            <input type="text" name="chDesc" id="chDesc"  placeholder="Descrição" required>
+                        </div>
+
+                        <!--
+                        <div class="form-input">
+                            <label for="chTel">Número para contato</label>
+                            <input type="tel" name="chTel" id="chTel"  placeholder="(00) 99999-9999" required>
+                        </div> 
+                        -->
+
+                        <!--<div class="form-input">
+                            <label for="ch_image">Imagens</label>
+                            <input type="file" id="ch_image">
+                        </div>-->
+
+                        <button type="submit" class="btn-new-account" id="send_form_ch">Enviar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <img width="233" height="47" src="./src/assets/logo-footer.png" alt="Voz Urbana">
+                <p class="p-footer">© 2025 Voz Urbana. Todos os direitos reservados.</p>
+                <div>
+                    <a href="index.html" class="btn-footer">Política de privacidade</a>
+                    <a href="index.html" class="btn-footer">Termos e condições</a>   
+                </div>
+            </div>         
+        </footer> 
+
+        <script src="./src/js/ch_requests.js"></script>
+    </body>
+</html>
