@@ -1,0 +1,221 @@
+:root{
+    --blue-brand: #2865AE;
+    --blue-200: #bfdbfe;
+    --zinc-50: #fafafa;
+    --zinc-100: #f4f4f5;
+    --zinc-200: #e4e4e7;
+    --zinc-400: #a3a3a3;
+    --zinc-500: #71717A;
+    --zinc-800: #27272a;
+}
+:focus{
+    outline: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+header{
+    background-color: var(--blue-200);
+}
+
+.header-container{
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--zinc-800);
+}
+
+.btn-login{
+    background-color: var(--blue-brand);
+    padding: 4px 14px;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px 0px var(--zinc-400);
+    color: var(--zinc-50);
+}
+
+.btn-create-account{
+    background-color: var(--zinc-50);
+    padding: 4px 14px;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px 0px var(--zinc-400);
+    color: var(--blue-brand);
+    border: solid 1px var(--blue-brand);
+}
+
+main{
+    height: 100vh;
+    background-color: var(--zinc-100);
+    padding-top: 44px;
+}
+
+footer {
+    background-color: var(--blue-200);
+}
+
+.btn-footer {
+    color:#2865AE;
+    text-decoration: none;
+    padding: 4px 14px;
+    margin:auto;
+}
+
+.footer-container {
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.p-footer {
+    display: inline;
+    color: var(--blue-brand);
+}
+
+.container-left{
+    width: 404px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.initial h1 {
+    font-size: 32px;
+    font-weight: normal;
+    color: var(--zinc-800);
+    margin-top: 20px;
+}
+
+#highligth {
+    font-size: 32px;
+    font-weight: normal;
+    color: var(--blue-brand);
+    margin-top: 20px;
+}
+.initial h2 {
+    font-size: 32px;
+    font-weight: normal;
+    color: var(--zinc-800);
+    margin-top: 20px;
+}
+
+.card{
+    width: 404px;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid var(--blue-brand);
+}
+
+#card{
+    justify-content: center;
+}
+
+.card > span{
+    font-weight: bold;
+    color: var(--blue-brand);
+    font-size: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-initial img {
+    width: 404px;
+    height: 404px;
+    max-width: 100%;
+    height: auto;
+}
+
+.container-right {
+    width: 428px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--blue-brand);
+}
+
+.profile-citizen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 40px;
+    gap: 120px;
+}
+
+.personal.details h3 {
+    font-size: 24px;
+    color: var(--blue-brand);
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    border: 1px solid var(--blue-brand);
+}
+
+.info {
+    list-style: none;
+    padding: 5px 30px 26px;
+}
+
+.info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--zinc-500);
+}
+
+.info li strong {
+   color: var(--zinc-800);
+}
+
+.btn-datails, .btn-register {
+    width: 180px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-brand);
+    color: var(--zinc-50);
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.btn-password, .btn-my {
+    width: 180px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue-brand);
+    border-radius: 6px;
+    border: 1px solid var(--blue-brand);
+    font-size: 0.9rem;
+}

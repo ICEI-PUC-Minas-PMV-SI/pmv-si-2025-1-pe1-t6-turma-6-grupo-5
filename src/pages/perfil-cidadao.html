@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Voz Urbana</title>
+        <link rel="stylesheet" href="../css/perfil-cidadao.css">
+
+    </head>
+    <body onload="renderChamados()">
+        <header>
+            <div class="header-container">
+                <img width="93" height="60" src="../assets/logo.png" alt="Voz Urbana"> 
+                <nav>
+                    <a href="/index.html" class="btn-clear">Início</a>
+                    <a href="./chamados.html" class="btn-clear">Chamados</a>
+                    <a href="./entrar.html" class="btn-login">Entrar</a>
+                    <a href="./criacao-usuario.html" class="btn-create-account">Cadastrar</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="profile-citizen">
+                <div class="container-left">
+                    <div class="initial">
+                        <h1>Olá, <span id="highligth">Rogério</span>.</h1>
+                        <h2>O que deseja fazer?</h2>
+                    </div>
+
+                    <div class="card">
+                        <span>CHAMADOS</span>
+                            <nav id="card">
+                                <a href="./criacao-chamados.html" class="btn-register">REGISTRAR NOVO</a>
+                                <a href="./chamados.html" class="btn-my">MEUS CHAMADOS</a>
+                            </nav>
+                    </div>
+
+                    <div class="image-initial">
+                        <img width="404" height="404" src="../assets/imagem perfil-cidadao.png" alt="Imagem de uma mulher alterando dados em um tela."/>
+                    </div>
+                </div>
+                
+                <div class="container-right">
+                    <div class="personal details">
+                        <h3>Dados Pessoais</h3>
+                        <div class="profile-photo">
+                            <img width="119" height="119" src="../assets/Rogerio.png" alt="Foto de Perfil."/>
+                        </div>
+                        <ul class="info">
+                            <li><strong>Nome</strong><br />Rogério Silva Marcondes</li>
+                            <li><strong>Telefone</strong><br />(xx) x xxxx-xxxx</li>
+                            <li><strong>CPF</strong><br />111.111.111-11</li>
+                            <li><strong>RG</strong><br />xxxxxx</li>
+                            <li><strong>Email</strong><br />xxxxxxxx@email.com</li>
+                            <li><strong>Endereço</strong><br />Rua xxx, Qd xxx, Lt xxx, Setor xxx</li>              
+                        </ul>
+                        <nav>
+                            <a href="" class="btn-datails">Editar Dados</a>
+                            <a href="" class="btn-password">Alterar Senha</a>
+                        </nav>
+                    </div>
+                </div>            
+        </main>
+        <footer>
+            <div class="footer-container">
+                <img width="233" height="47" src="../assets/logo-footer.png" alt="Voz Urbana">
+                <p class="p-footer">© 2025 Voz Urbana. Todos os direitos reservados.</p>
+                <div>
+                    <a href="./index.html" class="btn-footer">Política de privacidade</a>
+                    <a href="./index.html" class="btn-footer">Termos e condições</a>   
+                </div>
+            </div>         
+        </footer>  
+
+        <script src="../js/ch_requests.js"></script>
+    </body>
+</html>
