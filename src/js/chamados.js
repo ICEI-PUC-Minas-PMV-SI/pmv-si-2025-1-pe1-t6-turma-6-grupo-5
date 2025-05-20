@@ -9,45 +9,35 @@ const listCh = document.getElementById('chamadoList');
 function renderChamados() {
     listCh.innerHTML = ''; // Clear the current list
 
+    // Add the elements saved in "chamados"
     chArray.forEach((chamados, index) => {
         const itemChBox = document.createElement('div');
+
+        const itemProbDateBox = document.createElement('div');
 
         const itemProb = document.createElement('p');
         itemProb.textContent = `\n${chamados.problema}`;
 
+        const itemDate = document.createElement('p');
+        itemDate.textContent = `${chamados.data}`;
+
         const itemDescLocal = document.createElement('p');
         itemDescLocal.textContent = `${chamados.local}. ${chamados.descricao}`;
+
+        const itemStatus = document.createElement('p');
+        itemStatus.textContent = `${chamados.status}`;
        
         listCh.appendChild(itemChBox);
-        itemChBox.appendChild(itemProb);
+        itemChBox.appendChild(itemProbDateBox);
+        itemProbDateBox.appendChild(itemProb);
+        itemProbDateBox.appendChild(itemDate);
         itemChBox.appendChild(itemDescLocal);
-        itemProb.classList.add('problem_Ch');
+        itemChBox.appendChild(itemStatus);
         itemChBox.classList.add('box_ch');
+        itemProbDateBox.classList.add('probDateBox');
+        itemProb.classList.add('problem_Ch');
+        itemDate.classList.add('date_Ch');
+        itemStatus.classList.add('statusRep');
     });
 }
 
-// Listen for form submission
-formCh.addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent the form from submitting normally
-
-    // Create a new chamado object with form input values
-    const newChamado = {
-        "problema": formCh.chProblem.value,
-        "local": formCh.chLocal.value,
-        "descricao": formCh.chDesc.value,
-        /* "tel":formCh.chTel.value */
-    };
-
-    // Add to the array
-    chArray.push(newChamado);
-
-    // Save updated array to localStorage
-    localStorage.setItem('chamados', JSON.stringify(chArray));
-
-    // Reset the form
-    formCh.reset();
-
-    // Log or display confirmation
-    console.log('Chamado saved:', newChamado);
-    
-});
