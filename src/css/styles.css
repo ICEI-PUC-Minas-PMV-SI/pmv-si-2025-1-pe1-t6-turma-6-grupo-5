@@ -178,14 +178,14 @@ form{
     width: 100%;
 }
 
-input, textarea{
+input, textarea, select{
     background-color: var(--zinc-200);
     padding: 12px 16px;
     border: solid 2px transparent;
     border-radius: 8px;
 }
 
-input:focus-within, textarea:focus-within{
+input:focus-within, textarea:focus-within, select:focus-within{
     border-color: var(--blue-brand);
 }
 
@@ -357,3 +357,22 @@ footer {
     height: 73px;
 }
 
+.login-page {
+    display: flex;
+    max-width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.cad-link {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--zinc-500);
+    font-size: 14px;
+}
+
+.cad-link a {
+    color: var(--blue-brand);
+}
