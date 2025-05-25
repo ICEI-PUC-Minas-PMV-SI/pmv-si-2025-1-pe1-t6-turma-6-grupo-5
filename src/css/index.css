@@ -488,3 +488,8 @@ footer {
   height: auto;
   transform: translateY(-10px);
 }
+
+.sobre-text{
+color:var(--zinc-800);
+text-decoration-thickness: 0.3em;
+}
