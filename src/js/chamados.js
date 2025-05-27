@@ -26,7 +26,7 @@ function renderChamados() {
 
         const itemStatus = document.createElement('p');
         itemStatus.textContent = `${chamados.status}`;
-       
+
         listCh.appendChild(itemChBox);
         itemChBox.appendChild(itemProbDateBox);
         itemProbDateBox.appendChild(itemProb);
@@ -37,7 +37,17 @@ function renderChamados() {
         itemProbDateBox.classList.add('probDateBox');
         itemProb.classList.add('problem_Ch');
         itemDate.classList.add('date_Ch');
-        itemStatus.classList.add('statusRep');
+        itemDescLocal.classList.add('desc_Ch');
+        if (itemStatus.textContent === "EM ABERTO") {
+            itemStatus.textContent = "REPORTADO";
+            itemStatus.classList.add("statusRepOpen");
+        } else if (itemStatus.textContent === "EM ANDAMENTO") {
+            itemStatus.textContent = "EM ANDAMENTO";
+            itemStatus.classList.add("statusRepProgress");
+        } else if (itemStatus.textContent === "REALIZADO") {
+            itemStatus.textContent = "REALIZADO";
+            itemStatus.classList.add("statusRepClosed");
+        }
     });
 }
 

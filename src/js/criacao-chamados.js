@@ -23,7 +23,7 @@ formCh.addEventListener('submit', function (event) {
         "descricao": formCh.chDesc.value,
         "tel": formCh.chTel.value,
         "data": formattedDate,
-        "status": "REPORTADO"
+        "status": "EM ABERTO"
     };
 
     // Add to the array

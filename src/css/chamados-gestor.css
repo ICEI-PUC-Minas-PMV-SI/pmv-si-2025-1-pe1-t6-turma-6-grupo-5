@@ -9,7 +9,7 @@
     --zinc-800: #27272a;
     --green-300: #86EFAC;
     --orange-300: #FDBA74;
-     --yellow-300: #FDE047;
+    --yellow-300: #FDE047;
 }
 :focus{
     outline: 0;
@@ -146,6 +146,23 @@ h1{
     align-items: center;
 }
 
+.tel_Ch {
+    color: var(--zinc-800);
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: left;     
+}
+
+
+.boxStatusForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
 #btn-newCh{
     background-color: var(--blue-brand);
     padding: 8px 28px;
@@ -153,6 +170,11 @@ h1{
     margin-top: 5px;
     color: var(--zinc-50);
     text-align: center;
+}
+
+.formLabel{
+    margin-right: 20px;
+    align-items: center;
 }
 
 .statusRepOpen{
@@ -191,6 +213,26 @@ h1{
     box-shadow: 0 2px 6px 0px var(--zinc-400);
 }
 
+input, textarea, select{
+    background-color: var(--zinc-200);
+    width: 240px;
+    height: 40px;
+    padding: 0 16px;
+    border: solid 2px transparent;
+    border-radius: 8px;
+}
+
+.btn-new-account{
+    background-color: var(--blue-brand);
+    border: 0;
+    padding: 10px 10px;
+    margin-left: 20px;
+    text-align: center;
+    color: var(--zinc-50);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 footer {
     background-color: var(--blue-200);
