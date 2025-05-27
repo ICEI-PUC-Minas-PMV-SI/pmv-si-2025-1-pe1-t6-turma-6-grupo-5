@@ -275,7 +275,7 @@ footer {
 }
 
 .card{
-    padding: 24px 8px 8px 24px;
+    padding: 24px;
     background-color: #fff;
     border: solid 1px var(--blue-brand);
     border-radius: 8px;
