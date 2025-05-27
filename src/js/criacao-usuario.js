@@ -4,9 +4,9 @@ const cpf = document.getElementById("cpf")
 const password = document.getElementById("password")
 const rePassword =  document.getElementById("re-password")
 
-const form_cad =  document.getElementById("formCad")
+const formCad =  document.getElementById("formCad")
 
-let users
+let users = JSON.parse(localStorage.getItem('users')) || []
 
 formCad.addEventListener("submit",(event) =>{
     event.preventDefault()
@@ -40,7 +40,8 @@ function createNewUser(data){
         email,
         name,
         cpf,
-        password
+        password,
+        session: false
     })
 
     return localStorage.setItem('users', JSON.stringify(users))
@@ -52,9 +53,9 @@ function verifyDuplicateEmail(){
     console.log(users)
 }
 
-function getUsers(){
-    users = localStorage.getItem('users') || []
-}
+// function getUsers(){
+//     users = localStorage.getItem('users') || []
+// }
 
-getUsers()
+// getUsers()
 verifyDuplicateEmail()

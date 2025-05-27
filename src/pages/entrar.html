@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Voz Urbana</title>
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/entrar.css">
 
     </head>
-    <body onload="renderChamados()">
+    <body onload="verifyIfUserIsAlreadyLoggedIn()">
         <header>
             <div class="header-container">
                 <img width="93" height="60" src="../assets/logo.png" alt="Voz Urbana"> 
@@ -23,7 +23,7 @@
             </div>
         </header>
         <main>
-            <section class="login-page">
+            <section class="container">
                 <div>
                     <img width="447" height="447" src="../assets/login-page.png" alt="Imagem de um megafone saindo de um celular, com icones de redes sociais ao redor."/>
                 </div>
@@ -33,7 +33,7 @@
                     <form id="form-login"> 
                         <div class="form-input">
                             <label for="email">Email</label>
-                            <input type="email" id="Email" placeholder="Email" required>
+                            <input type="email" id="email" placeholder="Email" required>
                         </div>
 
                         <div class="form-input">
@@ -50,7 +50,7 @@
                             </select>
                         </div>
 
-                        <button type="submit" class="btn-login" id="login">Entrar</button>
+                        <button type="submit" class="btn-check-account" id="login">Entrar</button>
                     </form>
 
                     <p class="cad-link">Não tem conta? <a href="./criacao-usuario.html"> Cadastre aqui!</a> </p>
@@ -69,6 +69,6 @@
             </div>         
         </footer>  
 
-        <script src="../js/ch_requests.js"></script>
+        <script src="../js/entrar.js"></script>
     </body>
 </html>
