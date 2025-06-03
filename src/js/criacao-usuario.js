@@ -47,6 +47,12 @@ function createNewUser(data){
         return false
     }
 
+    if(user.value === ''){
+        alert('Selecione um perfil de usuário')
+
+        return false
+    }
+
     const emailAlreadyExist = verifyDuplicateEmail(email)
 
     if(emailAlreadyExist){
@@ -63,8 +69,10 @@ function createNewUser(data){
         return false
     if(rePassword === '' || rePassword === undefined || rePassword === null)
         return false
-    if(password.toString() != rePassword.toString())
+    if(password.toString() != rePassword.toString()){
+        alert('Senhas não conferem')
         return false
+    }
 
     
 
@@ -79,7 +87,11 @@ function createNewUser(data){
 
     resetFields()
 
-    return localStorage.setItem('users', JSON.stringify(users))
+    localStorage.setItem('users', JSON.stringify(users))
+
+    alert('Usuário criado com sucesso')
+
+    return window.location = 'entrar.html'
 }
 
 function resetFields(){
