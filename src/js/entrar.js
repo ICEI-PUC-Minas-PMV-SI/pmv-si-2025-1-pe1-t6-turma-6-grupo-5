@@ -67,7 +67,7 @@ function logout(){
 
     users = newUsers
 
-    //persistUser()
+    persistUser()
 }
 
 console.log(users)
