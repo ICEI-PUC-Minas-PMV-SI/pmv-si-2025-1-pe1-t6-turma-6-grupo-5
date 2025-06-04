@@ -6,6 +6,9 @@ const rePassword =  document.getElementById("re-password")
 const user = document.getElementById("usuario")
 const showPasscode = document.getElementById("showPasscode")
 const passcode = document.getElementById("passcode")
+const submitButton = document.getElementById("send-form")
+
+const userTerms = document.getElementById("termos")
 
 const formCad =  document.getElementById("formCad")
 
@@ -23,6 +26,18 @@ user.addEventListener('change', (v) =>{
         showPasscode.style.display = 'none'
         manager = false
     }
+})
+
+userTerms.addEventListener('change', (v) =>{
+
+    if (userTerms.checked) {
+        submitButton.style.cursor= 'pointer'
+        submitButton.style.opacity= '1'
+    } else {
+        submitButton.style.cursor= 'not-allowed'
+        submitButton.style.opacity= '0.40'
+    }
+   
 })
 
 formCad.addEventListener("submit",(event) =>{
