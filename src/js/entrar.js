@@ -19,12 +19,18 @@ function verifyAccountDetails(data){
     const { email, password} = data
 
     let existUser = false
+    let currentUserData 
 
     users.forEach((user,index) =>  {
         if(user !== null && user !== undefined && user.email === email && user.password === password){
             existUser = true
             
             users[index] = {
+                ...user,
+                session : true
+            }
+
+            currentUserData = {
                 ...user,
                 session : true
             }
@@ -37,9 +43,9 @@ function verifyAccountDetails(data){
         alert('Verifique os dados digitados')
 
         return 
-    }
-
-    if(existUser){
+    }else if(existUser && currentUserData.manager){
+        window.location = 'perfil-gestor.html'
+    }else if(existUser){
         window.location = 'perfil-cidadao.html'
     }
 }
@@ -50,7 +56,9 @@ function persistUser(){
 
 function verifyIfUserIsAlreadyLoggedIn(){
     users.forEach(user => {
-        if(user.session){
+        if(user.session && user.manager){
+            window.location = 'perfil-gestor.html'
+        }else if(user.session){
             window.location = 'perfil-cidadao.html'
         }
     })
