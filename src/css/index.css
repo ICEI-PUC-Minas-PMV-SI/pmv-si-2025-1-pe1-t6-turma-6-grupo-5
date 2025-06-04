@@ -24,7 +24,7 @@ header{
 }
 
 .header-container{
-    max-width: 75%;
+    max-width: 75rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -248,7 +248,7 @@ footer {
 
 
 .inicio-container {
-    max-width: 70%;
+    max-width: 75rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -317,7 +317,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--blue-200);
-    padding: 20px 0;
+    padding: 80px 0;
     /* display: flex;
     align-items: center;
     justify-content: space-between;
@@ -329,7 +329,7 @@ footer {
 }
 
 .sobre-conteudo {
-    max-width: 70%;
+    max-width: 75rem;
     display: flex;
     text-align: left;
     margin: 0 auto;
@@ -338,7 +338,7 @@ footer {
     
 }
 .sobre-conteudo-baixo {
-   max-width: 70%;
+   max-width: 75rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -351,7 +351,7 @@ footer {
 }
 
 .depoimento-conteudo {
-    max-width: 70%;
+    max-width: 75rem;
     margin: 0 auto ;
     display: flex;
     justify-content: space-between;
