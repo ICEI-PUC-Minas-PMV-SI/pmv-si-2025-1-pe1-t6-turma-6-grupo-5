@@ -57,6 +57,38 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>
+   <ul>
+    <li>RF-001:	O usuário deve ser capaz de se cadastrar no site como cidadão.</li>
+   <li>RF-002:	O usuário deve ser capaz de fazer login no site como cidadão.</li>
+   <li>RF-003:	O gestor público deve ser capaz de se cadastrar no site como gestor.</li>
+    <li>RF-004:	O usuário deve ser capaz de fazer login no site como gestor</li>
+   </ul>
+  </td>
+  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar nos links da página Home.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
+  <td>Guilherme</td>
+ </tr>
+</table>
 
 ## Exemplo
 
