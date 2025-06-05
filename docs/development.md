@@ -67,26 +67,63 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>CT-02: Verificar o funcionamento do cadastro de novos chamados</td>
   <td>
    <ul>
-    <li>RF-001:	O usuário deve ser capaz de se cadastrar no site como cidadão.</li>
-   <li>RF-002:	O usuário deve ser capaz de fazer login no site como cidadão.</li>
-   <li>RF-003:	O gestor público deve ser capaz de se cadastrar no site como gestor.</li>
-    <li>RF-004:	O usuário deve ser capaz de fazer login no site como gestor</li>
+   <li>RF-008: O usuário (cidadão) deve ser capaz de fazer o registro de problemas</li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Verificar a funcionalidade de registro de novo chamado. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar nos links da página Home.</li>
+    <li>Clicar na página "Novo chamado".</li>
+    <li>Preencher os dados necessários.</li>
+    <li>Clicar em "Enviar".</li>
    </ol>
    </td>
-  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Guilherme</td>
+  <td>Após concluir os passos, o novo chamado deve ser armazenado no local storage e aparecer na página de chamados.</td>
+  <td>Sofia</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-02: Verificar o funcionamento do cadastro de chamados na visão do gestor.</td>
+  <td>
+   <ul>
+   <li>RF-006:	O gestor público deve ser capaz de alterar o status da ocorrência reportada.</li>
+   <li>RF-007:	O gestor público deve ser capaz de contactar o usuário que realizou o chamado.</li>
+   </ul>
+  </td>
+  <td>Verificar a funcionalidade da opção de mudança de status do chamado publicado e o acesso aos dados que permitem o contato do gestor com o cidadão. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar na página "Login".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Preencher os dados necessários para acessar a conta de gestor.</li>
+    <li>Clicar em "Entrar".</li>
+    <li>Visualizar a página do perfil de gestor.</li>
+    <li>Clicar em "Acessar".</li>
+    <li>Visualizar a página de chamados.</li>
+    <li>Visualizar o número de contato do cidadão no card do chamado.</li>
+   </ol>
+   </td>
+  <td>Deve ser possível ver na página de cadastro do cidadão a mudança de status feita pelo gestor e que o número de contato do cidadão seja acessado facilmente.</td>
+  <td>Sofia</td>
  </tr>
 </table>
 
