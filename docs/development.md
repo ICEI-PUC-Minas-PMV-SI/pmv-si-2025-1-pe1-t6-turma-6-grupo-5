@@ -37,10 +37,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-01: Verificar o funcionamento dos links da página Home</td>
   <td>
    <ul>
-    <li>RF-001:	O site deve permitir ao usuário cadastrar uma conta.</li>
-   <li>RF-002:	O site deve permitir ao usuário fazer o login da sua conta.</li>
-   <li>RF-005:	O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.</li>
-    <li>RF-007:	O site deve permitir ao usuário visualizar os detalhes do livro.</li>
+    <li>RF-001:	O usuário deve ser capaz de se cadastrar no site como cidadão.</li>
+   <li>RF-002:	O usuário deve ser capaz de fazer login no site como cidadão.</li>
+   <li>RF-003:	O gestor público deve ser capaz de se cadastrar no site como gestor.</li>
+    <li>RF-004:	O usuário deve ser capaz de fazer login no site como gestor</li>
    </ul>
   </td>
   <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
