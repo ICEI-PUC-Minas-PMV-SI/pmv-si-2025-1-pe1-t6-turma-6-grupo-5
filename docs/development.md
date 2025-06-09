@@ -99,7 +99,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar o funcionamento do cadastro de chamados na visão do gestor.</td>
+  <td>CT-03: Verificar o funcionamento do cadastro de chamados na visão do gestor.</td>
   <td>
    <ul>
    <li>RF-006:	O gestor público deve ser capaz de alterar o status da ocorrência reportada.</li>
@@ -127,26 +127,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
-## Exemplo
+# Registro de Testes de Software
+Os testes funcionais realizados na aplicação web são descritos a seguir.
+## CT-02 e CT-03
+Responsável: Guilherme.
 
-## Requisitos Atendidos
+https://github.com/user-attachments/assets/ef6d1ec4-92c0-457e-88cb-7158a890496b
 
-As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
 
-### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
-
-## Descrição das estruturas:
-
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 
