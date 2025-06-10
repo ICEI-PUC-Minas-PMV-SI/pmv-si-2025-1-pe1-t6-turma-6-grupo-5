@@ -129,6 +129,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 # Registro de Testes de Software
 Os testes funcionais realizados na aplicação web são descritos a seguir.
+
+## CT-01
+Responsável: Sofia.
+
+https://github.com/user-attachments/assets/e8538d67-0e20-42be-b5be-c9d2aded5db1
+
 ## CT-02 e CT-03
 Responsável: Guilherme.
 
