@@ -72,6 +72,8 @@ function createNewUser(data){
 
     if(emailAlreadyExist){
         alert('Já existe um usuário com este email')
+
+        return false
     }
 
     if(email === '' || email === undefined || email === null)
