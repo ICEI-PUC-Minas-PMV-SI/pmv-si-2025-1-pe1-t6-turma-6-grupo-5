@@ -127,6 +127,42 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-04: Verificar o funcionamento do cadastro de usuários e gestores no app.</td>
+  <td>
+   <ul>
+   <li>RF-001:	O usuário deve ser capaz de se cadastrar no site como cidadão.</li>
+   <li>RF-003:	O gestor público deve ser capaz de se cadastrar no site como gestor.</li>
+   <li>RF-005:	O usuário não pode se cadastrar duas vezes com o mesmo email.</li>
+   </ul>
+  </td>
+  <td>Verificar a funcionalidade de cadastro de usuários e gestores, sendo necessário uma verificação a mais para garantir a autenticidade do gestor.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar na página "Cadastrar".</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Preencher os dados necessários para criar a conta de gestor ou usuário.</li>
+    <li>Clicar em "Cadastrar".</li>
+    <li>Confirmar o aparecimento de um pop-up, informando que o usuário foi cadastrado com sucesso.</li>
+   </ol>
+   </td>
+  <td>Deve ser possível ver no localstorage o usuário cadastrado com sucesso.</td>
+  <td>Tiago</td>
+ </tr>
+</table>
+
 # Registro de Testes de Software
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
@@ -139,6 +175,11 @@ https://github.com/user-attachments/assets/e8538d67-0e20-42be-b5be-c9d2aded5db1
 Responsável: Guilherme.
 
 https://github.com/user-attachments/assets/ef6d1ec4-92c0-457e-88cb-7158a890496b
+
+## CT-04
+Responsável: Tiago
+
+
 
 
 
