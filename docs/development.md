@@ -158,7 +158,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Confirmar o aparecimento de um pop-up, informando que o usuário foi cadastrado com sucesso.</li>
    </ol>
    </td>
-  <td>Deve ser possível ver no localstorage o usuário cadastrado com sucesso.</td>
+  <td>Deve ser possível ver no localstorage o usuário cadastrado com sucesso e ser redirecionado automaticamente para a página de login.</td>
   <td>Tiago</td>
  </tr>
 </table>
@@ -179,6 +179,7 @@ https://github.com/user-attachments/assets/ef6d1ec4-92c0-457e-88cb-7158a890496b
 ## CT-04
 Responsável: Tiago
 
+https://github.com/user-attachments/assets/e7688409-6927-472c-988e-625d5d3cd2ec
 
 
 
