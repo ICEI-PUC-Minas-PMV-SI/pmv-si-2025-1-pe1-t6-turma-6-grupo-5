@@ -163,6 +163,46 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-05: Verificar o cadastro de login e o funcionamento do login</td>
+  <td>
+   <ul>
+    <li>RF-001:	O usuário deve ser capaz de se cadastrar no site como cidadão.</li>
+   <li>RF-002:	O usuário deve ser capaz de fazer login no site como cidadão.</li>
+    <li>RF-004:	O usuário deve ser capaz de fazer login no site como gestor</li>
+   </ul>
+  </td>
+  <td>Verificar se o cadastro de login (tanto para gestor quanto para usuário) está sendo realizado com sucesso e se é possível realizar o login após o cadastro.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar na página "Cadastrar".</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Preencher os dados necessários para criar a conta de gestor ou usuário.</li>
+    <li>Clicar em "Cadastrar".</li>
+    <li>Clicar na página "Login".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Preencher os dados necessários para acessar a conta de gestor ou usuário.</li>
+    <li>Clicar em "Entrar".</li>
+    <li>Visualizar a página do perfil de gestor ou usuário.</li>
+   </ol>
+   </td>
+  <td>Deve ser possivel realizar o cadastro e o login do gestor e usuário com sucesso.</td>
+  <td>Guilherme</td>
+ </tr>
+</table>
+
 # Registro de Testes de Software
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
