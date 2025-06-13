@@ -199,7 +199,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Deve ser possivel realizar o cadastro e o login do gestor e usuário com sucesso.</td>
-  <td>Guilherme</td>
+  <td>Isadora</td>
  </tr>
 </table>
 
