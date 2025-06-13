@@ -184,6 +184,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Verificar se o cadastro de login (tanto para gestor quanto para usuário) está sendo realizado com sucesso e se é possível realizar o login após o cadastro.</td>
   <td>
    <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
     <li>Clicar na página "Cadastrar".</li>
     <li>Visualizar a página de cadastro.</li>
