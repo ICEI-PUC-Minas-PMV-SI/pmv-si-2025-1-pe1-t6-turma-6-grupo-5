@@ -63,9 +63,16 @@ a{
     border: solid 1px var(--blue-brand);
 }
 
-main{
-    background-color: var(--zinc-100);
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
     padding-top: 44px;
+    background-color: var(--zinc-100);
 }
 
 h1{
