@@ -187,10 +187,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar na página "Cadastrar".</li>
-    <li>Visualizar a página de cadastro.</li>
-    <li>Preencher os dados necessários para criar a conta de gestor ou usuário.</li>
-    <li>Clicar em "Cadastrar".</li>
     <li>Clicar na página "Login".</li>
     <li>Visualizar a página de login.</li>
     <li>Preencher os dados necessários para acessar a conta de gestor ou usuário.</li>
@@ -198,7 +194,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Visualizar a página do perfil de gestor ou usuário.</li>
    </ol>
    </td>
-  <td>Deve ser possivel realizar o cadastro e o login do gestor e usuário com sucesso.</td>
+  <td>Deve ser possivel realizar o login do gestor e usuário com sucesso.</td>
   <td>Isadora</td>
  </tr>
 </table>
