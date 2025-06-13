@@ -70,18 +70,15 @@ main {
     flex: 1;
     background-color: var(--zinc-100);
     padding-top: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .container {
-    display: flex;
-    max-width: 900px;
-    justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
     padding: 20px;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
