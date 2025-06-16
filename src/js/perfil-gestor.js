@@ -1,13 +1,32 @@
 let users = JSON.parse(localStorage.getItem('users')) || []
 
+const currentUser = getCurrentUser()
+const htmlForTheUser = createPersonalDetailsHTML(currentUser)
+document.getElementById("manager").appendChild(htmlForTheUser);
+
+
 function verifyLoggedUser(){
+    let numbersOfUserLogged = 0
     let isUserLogged = false
 
     users.forEach((user) => {
         if(user !== null && user !== undefined && user.session === true){
             isUserLogged = true
+            numbersOfUserLogged++
         }
     });
+
+    if(numbersOfUserLogged >= 2){
+        users = users.map(currentUser => {
+            return {
+                ...currentUser,
+                session : false
+            }
+        })
+
+        persistUser()
+        window.location = 'entrar.html'
+    }
 
     if(isUserLogged === false){
         window.location = 'entrar.html'
@@ -41,10 +60,6 @@ function persistUser(){
     localStorage.setItem('users', JSON.stringify(users))
 }
 
-const user = getCurrentUser()
-const html = createPersonalDetailsHTML(user)
-
-document.getElementById("manager").appendChild(html);
 
 function createPersonalDetailsHTML({
   name,
