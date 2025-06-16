@@ -217,6 +217,13 @@ Responsável: Tiago
 
 https://github.com/user-attachments/assets/e7688409-6927-472c-988e-625d5d3cd2ec
 
+## CT-05
+Responsável: Isadora
+
+https://github.com/user-attachments/assets/24b1d776-a95e-4c78-b0af-7ebd429265a3
+
+
+
 
 
 
