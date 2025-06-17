@@ -35,6 +35,20 @@ header{
     padding: 10px 0;
 }
 
+
+#name-and-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue-brand);
+    font-weight: 700;
+    gap: 12px;
+}
+
+#name-and-photo > img{
+    width: 48px;
+}
+
 nav{
     display: flex;
     gap: 12px;

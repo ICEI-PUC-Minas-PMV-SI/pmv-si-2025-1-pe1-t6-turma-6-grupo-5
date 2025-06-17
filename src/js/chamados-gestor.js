@@ -1,5 +1,10 @@
 // Load existing chamados from localStorage or start with an empty array
 let chArray = localStorage.getItem('chamados') ? JSON.parse(localStorage.getItem('chamados')) : [];
+let users = JSON.parse(localStorage.getItem('users')) || []
+
+const managerName = document.getElementById('gestor-nome')
+
+managerName.innerHTML = `${getCurrentUser().name.split(" ")[0]}`
 
 // Get the form
 const formCh = document.getElementById('chForm');
@@ -125,6 +130,12 @@ function renderChamados() {
     });
 }
 
+function getCurrentUser(){
+    const [user] = users.filter((user) => {
+        return user.session === true
+    })
 
+    return user
+}
 
 console.log(chArray);
