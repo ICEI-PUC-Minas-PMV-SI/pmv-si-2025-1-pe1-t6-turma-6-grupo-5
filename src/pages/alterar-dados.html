@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Voz Urbana</title>
-        <link rel="stylesheet" href="../css/criacao-usuario.css">
+        <link rel="stylesheet" href="../css/alterar-dados.css">
 
     </head>
     <body>
@@ -23,61 +23,39 @@
             </div>
         </header>
         <main >
-            <section class="container">
-                <img src="../assets/create-account.png" alt="">
-
                 <div class="form-container">
-                    <h1>FAÇA SEU CADASTRO</h1>
+                    <h1>ALTERAR DADOS</h1>
                     <form id="formCad">
+                        <div class="profile-photo">
+                            <img id="profile-pic" src="../assets/Carlos.png" alt="Foto de perfil">
+                            <input type="file" id="upload-photo" accept="image/*" style="display: none;">
+                            <label for="upload-photo" class="change-photo-link">Alterar Foto</label>
+                        </div>
+                        
                         <div class="form-input">
                             <label for="email">Email</label>
-                            <input type="email" id="email"   placeholder="Email" required>
+                            <input type="email" id="email"   placeholder="Email">
                         </div>
         
                         <div class="form-input">
                             <label for="name">Nome</label>
-                            <input type="name" id="name"   placeholder="Nome" required>
+                            <input type="name" id="name"   placeholder="Nome">
                         </div>
 
                         <div class="form-input">
                             <label for="cpf">CPF</label>
-                            <input type="cpf" id="cpf"   placeholder="CPF" required>
+                            <input type="cpf" id="cpf"   placeholder="CPF">
                         </div>
 
-                        
-                        <div class="form-input">
+                        <!-- <div class="form-input">
                             <label for="password">Senha</label>
                             <input type="password" id="password"   placeholder="Senha" required>
+                        </div>-->
+
+                        <div style="display: flex; gap: 12px; justify-content: center;">
+                            <button type="submit" class="btn-save" id="save-form">Salvar Alterações</button>
+                            <button type="button" class="btn-cancel" id="cancel-form">Cancelar</button>
                         </div>
-
-                        <div class="form-input">
-                            <label for="re-password">Repita a Senha</label>
-                            <input type="password" id="re-password" placeholder="Senha" required>
-                        </div>
-
-                        <div class="form-input">
-                            <label for="usuario">Cidadao ou Gestor?</label>
-                            <select id="usuario">
-                                <option value="">Selecione seu perfil de usuario</option>
-                                <option value="cidadao">Cidadao</option>
-                                <option valeu="gestor">Gestor</option>
-                            </select>
-                        </div>
-
-                        <div id="showPasscode" style="display: none;">
-                            <div class="form-input">
-                                <label for="passcode">Código de Gestor</label>
-                                <input type="text" id="passcode" placeholder="Código de Gestor">
-                            </div>
-                        </div>
-
-                        <div class="form-input check">
-                            <input type="checkbox" id="termos">
-                            <label for="termos">Aceito os termos de serviço!</label>
-                        </div>
-
-
-                        <button type="submit" class="btn-new-account" id="send-form">Cadastar</button>
                     </form>
                 </div>
             </section>

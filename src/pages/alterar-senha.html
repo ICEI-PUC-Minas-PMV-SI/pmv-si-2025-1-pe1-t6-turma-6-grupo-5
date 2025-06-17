@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Voz Urbana</title>
-        <link rel="stylesheet" href="../css/criacao-chamados.css">
+        <link rel="stylesheet" href="../css/alterar-dados.css">
 
     </head>
     <body>
@@ -17,42 +17,34 @@
                 <nav>
                     <a href="../../index.html" class="btn-clear">Início</a>
                     <a href="./chamados.html" class="btn-clear">Chamados</a>
-                    <a href="../pages/entrar.html" class="btn-login">Entrar</a>
+                    <a href="./entrar.html" class="btn-login">Entrar</a>
                     <a href="./criacao-usuario.html" class="btn-create-account">Cadastrar</a>
                 </nav>
             </div>
         </header>
         <main >
-            <section class="container">
                 <div class="form-container">
-                    <h1>REGISTRE SEU CHAMADO</h1>
-                    <form id="chForm">
+                    <h1>ALTERAR SENHA</h1>
+                    <form id="formCad">
                         <div class="form-input">
-                            <label for="chProblem">Do que se trata?</label>
-                            <input type="text" name="chProblem" id="chProblem"  placeholder="Do que se trata?" required>
+                            <label for="password">Senha Atual</label>
+                            <input type="password" id="password"   placeholder="Senha" required>
                         </div>
         
                         <div class="form-input">
-                            <label for="chLocal">Localização</label>
-                            <input type="text" name="chLocal" id="chLocal"  placeholder="Localização" required>
+                            <label for="password">Nova Senha</label>
+                            <input type="password" id="password"   placeholder="Senha" required>
                         </div>
 
                         <div class="form-input">
-                            <label for="chDesc">Descrição</label>
-                            <textarea type="text" name="chDesc" id="chDesc"  placeholder="Descrição" rows="5" required></textarea>
+                            <label for="password">Repita a Nova Senha</label>
+                            <input type="password" id="password"   placeholder="Senha" required>
                         </div>
-                        
-                        <div class="form-input">
-                            <label for="chTel">Número para contato</label>
-                            <input type="tel" name="chTel" id="chTel"  placeholder="(00) 99999-9999">
-                        </div> 
-                       
-                        <!--<div class="form-input">
-                            <label for="ch_image">Imagens</label>
-                            <input type="file" id="ch_image">
-                        </div>-->
 
-                        <button type="submit" class="btn-new-account" id="send_form_ch">Enviar</button>
+                        <div style="display: flex; gap: 12px; justify-content: center;">
+                            <button type="submit" class="btn-save" id="save-form">Salvar Alterações</button>
+                            <button type="button" class="btn-cancel" id="cancel-form">Cancelar</button>
+                        </div>
                     </form>
                 </div>
             </section>
@@ -68,6 +60,6 @@
             </div>         
         </footer> 
 
-        <script src="../js/criacao-chamados.js"></script>
+        <script src="../js/criacao-usuario.js"></script>
     </body>
 </html>

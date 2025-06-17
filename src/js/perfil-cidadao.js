@@ -64,11 +64,11 @@ document.getElementById("users").appendChild(html);
 
 function createPersonalDetailsHTML({
   name,
-  phone,
+  /*phone,*/
   cpf,
-  rg,
+  /*rg,*/
   email,
-  address,
+  /*address,*/
   profileImageSrc = "../assets/Rogerio.png",
   profileImageAlt = "Foto de Perfil."
 }) {
@@ -90,20 +90,20 @@ function createPersonalDetailsHTML({
     const nameProfile = document.createElement('li')
     nameProfile.innerHTML = `<strong>Nome</strong><br />${name}`
 
-    const phoneProfile = document.createElement('li')
-    phoneProfile.innerHTML = `<strong>Telefone</strong><br />${phone ? phone: '(xx) x xxxx-xxxx'}`
+    /*const phoneProfile = document.createElement('li')
+    phoneProfile.innerHTML = `<strong>Telefone</strong><br />${phone ? phone: '(xx) x xxxx-xxxx'}`*/
 
     const cpfProfile = document.createElement('li')
     cpfProfile.innerHTML = `<strong>CPF</strong><br />${cpf}`
 
-    const rgProfile = document.createElement('li')
-    rgProfile.innerHTML = `<strong>RG</strong><br />${rg ? rg : 'xxxxxxx'}`
+    /*const rgProfile = document.createElement('li')
+    rgProfile.innerHTML = `<strong>RG</strong><br />${rg ? rg : 'xxxxxxx'}`*/
 
     const emailProfile = document.createElement('li')
     emailProfile.innerHTML = `<strong>Email</strong><br />${email}`
 
-    const addressProfile = document.createElement('li')
-    addressProfile.innerHTML = `<strong>Endereço</strong><br />${address ? address : `Rua xxx, Qd xxx, Lt xxx, Setor xxx`}`
+    /*const addressProfile = document.createElement('li')
+    addressProfile.innerHTML = `<strong>Endereço</strong><br />${address ? address : `Rua xxx, Qd xxx, Lt xxx, Setor xxx`}`*/
 
     const nav = document.createElement('nav')
 
@@ -119,11 +119,11 @@ function createPersonalDetailsHTML({
     profile.appendChild(photo)
     personalDetails.appendChild(info)
     info.appendChild(nameProfile)
-    info.appendChild(phoneProfile)
+    /*info.appendChild(phoneProfile)*/
     info.appendChild(cpfProfile)
-    info.appendChild(rgProfile)
+    /*info.appendChild(rgProfile)*/
     info.appendChild(emailProfile)
-    info.appendChild(addressProfile)
+    /*info.appendChild(addressProfile)*/
     personalDetails.appendChild(nav)
     nav.appendChild(changeData)
     nav.appendChild(changePassword)
