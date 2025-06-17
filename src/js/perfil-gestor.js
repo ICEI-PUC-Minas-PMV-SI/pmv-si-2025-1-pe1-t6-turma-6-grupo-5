@@ -1,4 +1,5 @@
 let users = JSON.parse(localStorage.getItem('users')) || []
+const helloText = document.getElementById('highligth-gestor')
 
 const currentUser = getCurrentUser()
 const htmlForTheUser = createPersonalDetailsHTML(currentUser)
@@ -71,6 +72,9 @@ function createPersonalDetailsHTML({
   profileImageSrc = "../assets/Marcos.png",
   profileImageAlt = "Foto de Perfil."
 }) {
+    //it'll get only the first name of the user to diplay the hello message
+    helloText.innerHTML=`${name.split(" ")[0]}`
+
     const personalDetails = document.createElement('div')
     personalDetails.classList.add('personal')
     personalDetails.classList.add('details')
