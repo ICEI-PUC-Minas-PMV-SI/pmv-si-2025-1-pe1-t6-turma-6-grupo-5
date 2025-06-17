@@ -1,6 +1,21 @@
 let users = JSON.parse(localStorage.getItem('users')) || []
 const helloText = document.getElementById('highligth-gestor')
 const managerName = document.getElementById('gestor-nome')
+const headerPhoto = document.getElementById('name-and-photo')
+const changeShowLogoutStyle = document.getElementsByClassName('account-logout')[0]
+
+headerPhoto.addEventListener('mouseover', () => {
+    changeShowLogoutStyle.style.display = 'flex'
+})
+
+changeShowLogoutStyle.addEventListener('mouseout', () => {
+    setTimeout(() => {
+        if (!changeShowLogoutStyle.matches(':hover') && !headerPhoto.matches(':hover')) {
+            changeShowLogoutStyle.style.display = 'none'
+        }
+    }, 100)
+})
+
 
 const currentUser = getCurrentUser()
 const htmlForTheUser = createPersonalDetailsHTML(currentUser)
