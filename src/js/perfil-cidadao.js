@@ -1,5 +1,22 @@
 let users = JSON.parse(localStorage.getItem('users')) || []
 
+const helloText = document.getElementById('highligth-user')
+const userName = document.getElementById('cidadao-nome')
+const headerPhoto = document.getElementById('name-and-photo')
+const changeShowLogoutStyle = document.getElementsByClassName('account-logout')[0]
+
+headerPhoto.addEventListener('mouseover', () => {
+    changeShowLogoutStyle.style.display = 'flex'
+})
+
+changeShowLogoutStyle.addEventListener('mouseout', () => {
+    setTimeout(() => {
+        if (!changeShowLogoutStyle.matches(':hover') && !headerPhoto.matches(':hover')) {
+            changeShowLogoutStyle.style.display = 'none'
+        }
+    }, 100)
+})
+
 function verifyLoggedUser(){
     let numbersOfUserLogged = 0
     let isUserLogged = false
@@ -72,6 +89,9 @@ function createPersonalDetailsHTML({
   profileImageSrc = "../assets/Rogerio.png",
   profileImageAlt = "Foto de Perfil."
 }) {
+    helloText.innerHTML=`${name.split(" ")[0]}`
+    userName.innerHTML=`${name.split(" ")[0]}`
+
     const personalDetails = document.createElement('div')
     personalDetails.classList.add('personal')
     personalDetails.classList.add('details')
