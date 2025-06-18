@@ -106,8 +106,14 @@ a{
     border: solid 1px var(--blue-brand);
 }
 
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 main{
-    height: 100vh;
     background-color: var(--zinc-100);
     padding-top: 44px;
 }
