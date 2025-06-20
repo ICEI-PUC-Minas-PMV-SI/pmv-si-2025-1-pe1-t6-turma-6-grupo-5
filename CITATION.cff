@@ -1,33 +1,29 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
-cff-version: 1.2.0
-title: Web Application Template
-message: >-
-  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
-  Web da PUC Minas.
+message: Please cite this software using these metadata.
+title: Voz Urbana
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Guilherme
+    family-names: Duarte de Paula Assis
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
+  - given-names: Isadora
+    family-names: Maria Ribeiro
+    affiliation: PUC Minas
+  - given-names: Sofia
+    family-names: Patrocinio de Abreu
+    affiliation: PUC Minas
+  - given-names: Tiago
+    family-names: Souza Dias
+    affiliation: PUC Minas
+  - given-names: Clóvis
+    family-names: Lemos Tavares
     name-suffix: Prof.
-    email: hugo@pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
-repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
-abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t6-turma-6-grupo-5
+abstract: O projeto “Voz Urbana” tem como objetivo desenvolver uma plataforma que conecte a população ao governo de maneira prática, garantindo que as demandas populacionais sejam atendidas sem tanta burocracia.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
-  - Template
-date-released: '2024-06-23'
+  - Voz Urbana
+date-released: '2025-06-22'
